@@ -1,0 +1,26 @@
+body {
+    background-color: yellow;
+    font-size: 3em;
+}
+
+/* pseudo elements */
+p:first-letter {
+    font-size: 5em;
+    color: red;
+}
+
+/*p:first-line {
+    text-decoration: underline;
+}*/
+
+/* pseudo class selector */
+a:link {
+    text-decoration: none;
+}
+li>a:hover {
+    text-decoration: underline;
+}
+/* even lijnen */
+li:nth-child(2n) {
+    color: blue;
+}
