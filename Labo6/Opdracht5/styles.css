@@ -1,0 +1,9 @@
+a {
+    background-image: url("images/Portrait_of_Pope_Francis_(2021)_FXD.jpg");
+    background-position: left;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 80px;
+
+    font-size: 5em;
+    padding-left: 100px;
+}

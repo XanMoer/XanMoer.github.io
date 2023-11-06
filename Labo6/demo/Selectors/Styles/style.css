@@ -3,6 +3,10 @@ body {
     font-size: 3em;
 }
 
+p {
+    background-color: aqua;
+}
+
 /* pseudo elements */
 p:first-letter {
     font-size: 5em;
