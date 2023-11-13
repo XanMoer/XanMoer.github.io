@@ -1,0 +1,80 @@
+body {
+    font-family: Verdana, serif;
+    margin: 0;
+    background-color: #444444;
+    color: white;
+}
+
+.headerClass {
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    height: 6em;
+}
+
+.headerClass h2 {
+    margin: 0;
+    padding: 1em;
+}
+
+body > article {
+    margin: 0;
+}
+
+article header {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2em;
+    font-variant: small-caps;
+    text-decoration: underline 3px;
+    font-size: large;
+    text-align: center;
+}
+
+article h3 {
+    margin: 0;
+}
+
+article section {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+article ul, article ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+}
+
+article > section {
+    border: white 2px solid;
+    margin-top: 10px;
+}
+
+article li {
+    padding-top: 10px;
+    font-variant: all-petite-caps;
+}
+
+article img {
+    width: 500px;
+    height: auto;
+}
+
+.hobbies ul > li {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.hobbies ol > li {
+    display: inline;
+    font-weight: lighter;
+}
+
+a {
+    color: white;
+}
