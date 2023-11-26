@@ -67,8 +67,7 @@ h2 {
 
 #guarantee {
     margin: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 25px 25px 25px 60px;
     color: rgb(44, 44, 44);
     background-color: #a7cece;
     border: 1px dotted white;
@@ -79,7 +78,6 @@ h2 {
     background-position: left;
     background-repeat: no-repeat;
     background-size: 60px;
-    padding-left: 60px;
 }
 
 footer {
