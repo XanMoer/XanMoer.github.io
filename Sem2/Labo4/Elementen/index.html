@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Elementen</title>
+</head>
+<body>
+<form method="post" action="student/Elementen">
+    <label for="txtFirstName">First Name*:</label>
+    <input type="text" id="txtFirstName" required autofocus>
+    <br><br>
+
+    <label for="txtLastName">Last Name*:</label>
+    <input type="text" id="txtLastName" required>
+    <br><br>
+
+    <p>Which sport do you play?</p>
+    <label for="chbRunning">Running</label>
+    <input type="checkbox" id="chbRunning">
+    <br><br>
+
+    <label for="chbSwimming">Swimming</label>
+    <input type="checkbox" id="chbSwimming">
+    <br><br>
+
+    <label for="chbRowing">Rowing</label>
+    <input type="checkbox" id="chbRowing">
+    <br><br>
+
+    <p>What is your gender?</p>
+    <label for="rdoMale">Male</label>
+    <input type="radio" id="rdoMale" name="gender">
+    <br><br>
+
+    <label for="rdoFemale">Female</label>
+    <input type="radio" id="rdoFemale" name="gender">
+    <br><br>
+
+    <label for="txtMovie">Fav Movie:</label>
+    <input type="text" id="txtMovie">
+    <br><br>
+
+    <label for="txtQuote">Fav Quote:</label>
+    <input type="text" id="txtQuote" placeholder="Write your favorite quote.">
+    <br><br>
+
+    <label for="txtPassword">Password*:</label>
+    <input type="password" id="txtPassword" required>
+    <br><br>
+
+    <label for="boxFood">Fav Food:</label>
+    <select name="food" id="boxFood" size="3" multiple>
+        <option value="Hambuger">Hamburger</option>
+        <option value="Pizza">Pizza</option>
+        <option value="Fritn">Fries</option>
+    </select>
+    <br><br>
+
+    <input type="file">
+    <br><br>
+
+    <label for="txtEmail">Email adress:</label>
+    <input type="email" id="txtEmail" placeholder="Enter your email.">
+    <br><br>
+
+    <label for="txtSite">Fav Site:</label>
+    <input type="url" id="txtSite" placeholder="Enter your favorite site.">
+    <br><br>
+
+    <label for="txtNumber">Fav Number between 1 - 10</label>
+    <input type="number" id="txtNumber" min="1" max="10">
+    <br><br>
+
+    <label for="txtNumberSLider">Fav Number between 11 - 1000</label>
+    <input type="range" id="txtNumberSLider" min="11" max="1000" value="500">
+    <br><br>
+
+    <label for="dateBorn">When were you born?</label>
+    <input type="date" id="dateBorn">
+    <br><br>
+
+    <label for="txtPostcode">Phone</label>
+    <input type="number" id="txtPostcode" pattern="[1-9]{1}[0-9]{3}">
+    <br><br>
+
+    <label for="txtSearch">Search for something:</label>
+    <input type="search" id="txtSearch">
+    <br><br>
+
+    <label for="clrColor">Fav Color:</label>
+    <input type="color" id="clrColor">
+    <br><br>
+
+    <input type="submit">
+
+</form>
+
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</body>
+</html>
