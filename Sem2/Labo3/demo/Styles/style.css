@@ -1,0 +1,15 @@
+.listStyleTypeNone {
+    list-style-type: none;
+}
+
+.listStyleTypeDisc {
+    list-style-type: disc;
+}
+
+.colorRed {
+    background-color: red;
+}
+
+.colorWhite {
+    background-color: white;
+}
