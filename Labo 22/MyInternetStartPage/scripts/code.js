@@ -17,19 +17,19 @@ const go = () => {
 
 
     switch (question[1]) {
-        case "y" :
+        case "y":
             handle("Youtube", question[2], "https://www.youtube.com/results?search_query=" + encodeURIComponent(question[2]));
             break;
-        case "g"  :
+        case "g":
             handle("Google", question[2], "https://www.google.com/search?q=" + encodeURIComponent(question[2]));
             break;
         case "i":
             handle("Instagram", question[2], "https://www.instagram.com/explore/tags/" + encodeURIComponent(question[2]) + "/");
             break;
-        case "t" :
+        case "t":
             handle("Twitter", question[2], "https://twitter.com/hashtag/" + encodeURIComponent(question[2]));
             break;
-        default :
+        default:
             window.alert("unkown command prefix");
             break;
     }
@@ -43,14 +43,14 @@ const handle = (site, query, url) => {
 
 const store = (site, query, url) => {
 
-    let searches = JSON.parse(localStorage.getItem("KasperB2004.github.io.homepage.searches")) || [];
+    let searches = JSON.parse(localStorage.getItem("XanMoer.github.io.homepage.searches")) || [];
     let newSearch = {
         site: site,
         query: query,
         url: url
     };
     searches.push(newSearch);
-    localStorage.setItem("KasperB2004.github.io.homepage.searches", JSON.stringify(searches));
+    localStorage.setItem("XanMoer.github.io.homepage.searches", JSON.stringify(searches));
 };
 
 const createCard = (site, query, url) => {
@@ -93,13 +93,13 @@ const createCard = (site, query, url) => {
 }
 
 const clear = () => {
-    localStorage.setItem("KasperB2004.github.io.homepage.searches", JSON.stringify([]));
+    localStorage.setItem("XanMoer.github.io.homepage.searches", JSON.stringify([]));
     document.querySelector("#resultContainer > .row").innerHTML = "";
 
 }
 
 const restore = () => {
-    let searches = JSON.parse(localStorage.getItem("KasperB2004.github.io.homepage.searches"));
+    let searches = JSON.parse(localStorage.getItem("XanMoer.github.io.homepage.searches"));
     if (searches != null) {
         for (let i = 0; i < searches.length; i++) {
             createCard(searches[i].site, searches[i].query, searches[i].url);
